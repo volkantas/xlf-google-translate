@@ -3,10 +3,11 @@
   "version": "1.0.0-beta",
   "author": "Patrik J. Braun",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "ts-node src/index.ts"
   },
   "dependencies": {
     "google-translate-api": "2.3.0",
+    "ts-node": "^5.0.1",
     "typeconfig": "^1.0.6",
     "typescript": "2.6.2",
     "xml2js": "0.4.19"
